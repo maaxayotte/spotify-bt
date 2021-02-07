@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client",
+    "e2e"
+  ],
+  "scripts": {
+    "build:client": "yarn workspace spotify-bt-client build",
+    "dev": "yarn workspace spotify-bt-server dev",
+    "dev:debug": "yarn workspace spotify-bt-server dev:debug",
+    "heroku-postbuild": "yarn workspace spotify-bt-client build",
+    "start": "yarn workspace spotify-bt-server start",
+    "dev:cypress": "yarn workspace spotify-bt-server dev:e2e",
+    "e2e:open": "yarn workspace spotify-bt-e2e e2e:open",
+    "e2e:run": "yarn workspace spotify-bt-e2e e2e:run"
+  },
+  "engines": {
+    "node": "^14.15"
+  }
+}
