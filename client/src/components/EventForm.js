@@ -71,6 +71,7 @@ const EventForm = (props) => {
 
   return (
     <div>
+      <ErrorList errors={errors} />
       <h1>Add a New Event</h1>
         <form onSubmit={handleSubmit}>
           <label>

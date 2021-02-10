@@ -10,6 +10,11 @@ exports.up = async (knex) => {
     table.bigIncrements('id')
     table.string('name').notNullable()
     table.string('date').notNullable()
+    table.bigInteger('userId')
+      .unsigned()
+      .notNullable()
+      .index()
+      .references('users.id')
     table.integer('playlistId')
     table.timestamp("createdAt").notNullable().defaultTo(knex.fn.now());
     table.timestamp("updatedAt").notNullable().defaultTo(knex.fn.now());
