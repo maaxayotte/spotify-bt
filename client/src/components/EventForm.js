@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {Redirect} from 'react-router-dom'
 import ErrorList from './ErrorList'
 import translateServerErrors from './../services/translateServerErrors'
+import getCurrentUser from './../services/getCurrentUser'
 
 const EventForm = (props) => {
   const [errors, setErrors] = useState([])
@@ -14,13 +15,18 @@ const EventForm = (props) => {
   })
 
   const addNewEvent = async () => {
+    const currentUser = await getCurrentUser();
+    const eventData = {
+      ...newEvent,
+      userId: currentUser.id
+    }
     try {
       const response = await fetch('/api/v1/events', {
         method: 'POST',
         headers: new Headers({
           'Content-Type': 'application/json'
         }),
-        body: JSON.stringify(newEvent)
+        body: JSON.stringify(eventData)
       })
       if (!response.ok) {
         if(response.status === 422) {

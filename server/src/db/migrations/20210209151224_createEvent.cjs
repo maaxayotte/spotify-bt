@@ -12,7 +12,6 @@ exports.up = async (knex) => {
     table.string('date').notNullable()
     table.bigInteger('userId')
       .unsigned()
-      .notNullable()
       .index()
       .references('users.id')
     table.integer('playlistId')
