@@ -13,6 +13,7 @@ exports.up = async (knex) => {
     table.bigInteger('userId')
       .unsigned()
       .index()
+      .notNullable()
       .references('users.id')
     table.integer('playlistId')
     table.timestamp("createdAt").notNullable().defaultTo(knex.fn.now());
