@@ -16,7 +16,7 @@ const NewPlaylistForm = () => {
     <div>
       <form>
         <label>
-          Playlist URI:
+          Playlist name:
           <input 
             className='input'
             id='playlistUri'

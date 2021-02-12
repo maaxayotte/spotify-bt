@@ -28,12 +28,6 @@ const EventShow = (props) => {
     getEvent()
   }, [])
 
-  let newPlaylistForm = () => {
-    return (
-      <NewPlaylistForm />
-    )
-  }
-
   return(
     <div>
       <ErrorList errors={errors} />
@@ -42,10 +36,10 @@ const EventShow = (props) => {
         <h2>{event.date}</h2>
       </div>
       <div>
-        {newPlaylistForm()}
+        <NewPlaylistForm />
       </div>
     </div>
   )
 }
 
-  export default EventShow
+export default EventShow
