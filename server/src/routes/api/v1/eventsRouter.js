@@ -5,7 +5,8 @@ import objection from 'objection'
 const { ValidationError } = objection
 
 const eventsRouter = new express.Router()
-
+// point to eventPlaylistsROuter
+// "/api/v1/events:eventId/playlists"
 eventsRouter.get('/new', async (req, res) => {
   try{
     const events = await Event.query()

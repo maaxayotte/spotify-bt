@@ -12,7 +12,14 @@ const NewPlaylistForm = () => {
       [event.currentTarget.name]: event.currentTarget.value
     })
   }
+  
+  // handleSUbmit
 
+  // attach to <form>
+
+  // redirect if successful to event page to see new playlist
+
+  // POST to `/api/v1/plyalists`
   return (
     <div>
       <form>
