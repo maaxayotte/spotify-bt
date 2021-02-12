@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const EventTile = ({ event }) => {
+  debugger
   return (
     <div>
-      <Link to={`/events/${event.id}`}>
         <ul>
           <li>
             Event name:
@@ -20,7 +20,6 @@ const EventTile = ({ event }) => {
           type='button'
           value='View Event'
         />
-      </Link>
     </div>
   )
 }
