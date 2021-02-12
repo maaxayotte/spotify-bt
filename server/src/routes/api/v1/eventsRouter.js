@@ -29,4 +29,14 @@ eventsRouter.post('/', async (req, res) => {
   }
 })
 
+eventsRouter.get('/:id', async (req, res) => {
+  try {
+    const id = req.params.id
+    const event = await Event.query().findById(id)
+    return res.status(200).json({ event: event })
+  } catch (error) {
+    return res.status(500).json({ errors: error })
+  }
+})
+
 export default eventsRouter
