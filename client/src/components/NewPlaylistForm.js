@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 
 const NewPlaylistForm = () => {
   const [newPlaylist, setNewPlaylist] = useState({
-    playlistUri: ''
+    name: '',
+    type: ''
   })
   
   const handleInputChange = event => {
@@ -16,14 +17,27 @@ const NewPlaylistForm = () => {
     <div>
       <form>
         <label>
-          Playlist name:
+          Name:
           <input 
             className='input'
-            id='playlistUri'
+            id='name'
             type='text'
-            name='playlistUri'
-            value={newPlaylist.playlistUri}
+            name='name'
+            value={newPlaylist.name}
             onChange={handleInputChange}
+            placeholder='Lorem'
+          />
+        </label>
+        <label>
+          Type:
+          <input 
+            className='input'
+            id='type'
+            type='text'
+            name='type'
+            value={newPlaylist.type}
+            onChange={handleInputChange}
+            placeholder='Playlist'
           />
         </label>
 
