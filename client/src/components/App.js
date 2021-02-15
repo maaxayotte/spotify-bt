@@ -9,6 +9,8 @@ import SignInForm from "./authentication/SignInForm";
 import TopBar from "./layout/TopBar";
 import EventForm from './EventForm'
 import EventIndex from './EventIndex'
+import EventShow from './EventShow'
+
 
 const App = (props) => {
   const [currentUser, setCurrentUser] = useState(undefined);
@@ -32,6 +34,7 @@ const App = (props) => {
         <Route exact path="/users/new" component={RegistrationForm} />
         <Route exact path="/user-sessions/new" component={SignInForm} />
         <Route exact path="/events/new" component={EventForm} />
+        <Route exact path="/events/:id" component={EventShow} />
       </Switch>
     </Router>
   );
