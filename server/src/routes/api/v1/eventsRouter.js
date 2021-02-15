@@ -14,6 +14,7 @@ eventsRouter.get('/', async (req, res) => {
   } catch {
     return res.status(500).json({ errors: err})
   }
+})
 
 eventsRouter.post('/', async (req, res) => {
   const { body } = req
