@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { Redirect } from 'react-router-dom'
 
 const EventTile = ({ event }) => {
-  debugger
+  const [ shouldRedirect, setShouldRedirect] = useState(false)
+
+  if (shouldRedirect) {
+    <Redirect to={`/events/${event.id}`} />
+  }
+
+  const viewEvent = () => {
+    
+  }
+
   return (
     <div>
         <ul>
@@ -17,6 +27,7 @@ const EventTile = ({ event }) => {
         </ul>
 
         <input 
+          onClick={viewEvent}
           type='button'
           value='View Event'
         />
