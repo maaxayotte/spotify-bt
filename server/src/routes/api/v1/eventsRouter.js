@@ -6,15 +6,6 @@ const { ValidationError } = objection
 
 const eventsRouter = new express.Router()
 
-eventsRouter.get('/new', async (req, res) => {
-  try{
-    const events = await Event.query()
-    return res.status(200).json({ events: events})
-  } catch {
-    return res.status(500).json({ errors: err})
-  }
-})
-
 eventsRouter.post('/', async (req, res) => {
   const { body } = req
   const cleanedFormData = cleanUserInput(body)
