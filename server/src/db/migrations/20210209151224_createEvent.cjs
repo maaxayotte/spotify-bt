@@ -10,6 +10,7 @@ exports.up = async (knex) => {
     table.bigIncrements('id')
     table.string('name').notNullable()
     table.string('date').notNullable()
+    table.string('description').notNullable()
     table.bigInteger('userId')
       .unsigned()
       .index()
