@@ -23,8 +23,6 @@ const EventIndex = (props) => {
     getEvents()
   }, [])
 
-  console.log(events)
-
   const eventTile = events.map(event => {
     return (
       <EventTile 
