@@ -33,7 +33,7 @@ const EventIndex = (props) => {
   })
 
  return (
-   <div>
+   <div className='tiles'>
       {eventTile}
    </div>
  )

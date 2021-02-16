@@ -15,17 +15,18 @@ const NewPlaylistForm = () => {
   return (
     <div>
       <form>
-        <label>
-          Playlist name:
-          <input 
-            className='input'
-            id='playlistUri'
-            type='text'
-            name='playlistUri'
-            value={newPlaylist.playlistUri}
-            onChange={handleInputChange}
-          />
-        </label>
+        <div>
+          <label>
+            Playlist name:
+            <input 
+              id='playlistUri'
+              type='text'
+              name='playlistUri'
+              value={newPlaylist.playlistUri}
+              onChange={handleInputChange}
+            />
+          </label>
+        </div>
 
         <div>
           <input
