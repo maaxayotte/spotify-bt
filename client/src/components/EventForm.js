@@ -72,7 +72,7 @@ const EventForm = (props) => {
   }
 
   if (shouldRedirect){
-    return <Redirect to={'/'} />
+    return <Redirect to={`/events/${newEventId}`} />
   }
 
   return (
