@@ -32,16 +32,22 @@ const EventShow = (props) => {
   return(
     <div>
       <ErrorList errors={errors} />
-      <div>
-        <h1>{event.name}</h1>
-        <h2>{event.date}</h2>
-        <h3>{event.description}</h3>
+      <div className='event-info'>
+        <div className='info-top'>
+          <p>{event.name}</p>
+          <p>{event.date}</p>
+        </div>
+        <div className='info-bottom'>
+          <p>{event.description}</p>
+        </div>
       </div>
-      <div>
-        <NewPlaylistForm />
-      </div>
-      <div>
-        <NewParticipantForm />
+      <div className='entry-fields'>
+        <div className='playlist-form'>
+          <NewPlaylistForm />
+        </div>
+        <div className='participant-form'>
+          <NewParticipantForm />
+        </div>
       </div>
     </div>
   )

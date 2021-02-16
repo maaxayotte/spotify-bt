@@ -12,3 +12,148 @@
   -moz-tab-size: 4;
   tab-size: 4;
 }
+
+#top-bar-color{
+  background-color: black;
+}
+
+#ul-elements{
+  background-color: black;
+}
+
+.page-links{
+  color: white;
+}
+
+.page-links:hover{
+  text-decoration: none;
+  color: #1DB954;
+}
+
+.log-in{
+  background-color: white;
+  color: black;
+}
+
+.log-in:hover{
+  color: black;
+  filter: brightness(.8)
+}
+
+.sign-up{
+  background-color: #1DB954;
+  color:black;
+}
+
+.sign-up:hover{
+  color: black;
+  filter: brightness(.8)
+}
+
+#sign-out{
+  background-color: #1DB954;
+  color:black;
+}
+
+#sign-out:hover{
+  color: black;
+  filter: brightness(.8)
+}
+
+.icon{
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.new-event-form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.top-bar{
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  background-image: url(https://webgradients.com/public/webgradients_png/098%20Risky%20Concrete.png);
+  background-repeat: no-repeat;
+}
+
+.submit-button{
+  color: #1DB954;
+}
+
+.tiles{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 50%;
+  margin: auto;
+}
+
+.tile-name{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  color: white;
+}
+
+.date-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding-top: 10px;
+}
+
+.individual-tile{
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.info-top{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-between;
+  margin: 40px 40px 0px 40px;
+}
+
+.info-bottom{
+  display: flex;
+  margin: 0px 40px 40px 40px;
+  flex-basis: 100%;
+}
+
+.entry-fields{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.playlist-form{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+}
+
+.home-page-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 40px 40px 40px;
+  text-align: center;
+}
+
+.welcome-text{
+  padding: 10px;
+  margin: 20px;
+  font-size: 1.1rem;
+}

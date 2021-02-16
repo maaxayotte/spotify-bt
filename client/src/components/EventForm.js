@@ -78,13 +78,14 @@ const EventForm = (props) => {
   }
 
   return (
-    <div>
+    <div className='new-event-form'>
       <ErrorList errors={errors} />
-      <h1>Add a New Event</h1>
+      <h1>Create a new event!</h1>
         <form onSubmit={handleSubmit}>
           <label>
             Name:
             <input 
+              className='input'
               type='text'
               name='name'
               onChange={handleInputChange}
@@ -95,6 +96,7 @@ const EventForm = (props) => {
           <label>
             Date:
             <input 
+              className='input'
               type='text'
               name='date'
               onChange={handleInputChange}
@@ -105,6 +107,7 @@ const EventForm = (props) => {
           <label>
             Description:
             <textarea 
+              className='input'
               name='description'
               rows='6'
               onChange={handleInputChange}
@@ -113,6 +116,8 @@ const EventForm = (props) => {
           </label>
 
           <input 
+            className='button success'
+            id='submit-button'
             type='submit'
             value='Submit'
           />

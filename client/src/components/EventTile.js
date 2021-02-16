@@ -13,18 +13,26 @@ const EventTile = ({ event }) => {
   }
 
   return (
-    <div>
-        <ul>
+    <div className='individual-tile'>
+      <div>
+      <ul className='tile-name'>
           <strong>{event.name}</strong>
         </ul>
+      </div>
+      <div className='date-btn'>
         <ul>
           <strong>{event.date}</strong>
         </ul>
-      <input 
-        onClick={viewEvent}
-        type='button'
-        value='View Event'
-      />
+        <div>
+          <input 
+            className='button success'
+            id='submit-btn'
+            onClick={viewEvent}
+            type='button'
+            value='View Event'
+          />  
+        </div>
+      </div>
     </div>
   )
 }
