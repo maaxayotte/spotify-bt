@@ -11,7 +11,8 @@ const EventForm = (props) => {
   const [newEventId, setNewEventId] = useState([])
   const [newEvent, setNewEvent] = useState({
     name: '',
-    date: ''
+    date: '',
+    description: ''
   })
 
   const addNewEvent = async () => {
@@ -67,7 +68,8 @@ const EventForm = (props) => {
   const clearForm = () => {
     setNewEvent({
       name: '',
-      date: ''
+      date: '',
+      description: ''
     })
   }
 
@@ -97,6 +99,16 @@ const EventForm = (props) => {
               name='date'
               onChange={handleInputChange}
               value={newEvent.date}
+            />
+          </label>
+
+          <label>
+            Description:
+            <textarea 
+              name='description'
+              rows='6'
+              onChange={handleInputChange}
+              value={newEvent.description}
             />
           </label>
 
