@@ -1,0 +1,792 @@
+{
+  "playlists": {
+    "href": "https://api.spotify.com/v1/search?query=Lorem&type=playlist&market=US&offset=0&limit=20",
+    "items": [
+      {
+        "collaborative": false,
+        "description": "Claud's album is heeeeere, plus Christian Leave, Syd, and more ✨ cover: Blu DeTiger",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdwmD5Q7Gxah"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdwmD5Q7Gxah",
+        "id": "37i9dQZF1DXdwmD5Q7Gxah",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000037dbd4b3a5d93c008b481a249",
+            "width": null
+          }
+        ],
+        "name": "Lorem",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYxMzE0ODQ1NiwwMDAwMDI0NzAwMDAwMTc3OTcyNDA2ZjUwMDAwMDE3NzRiNjUyODQ1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdwmD5Q7Gxah/tracks",
+          "total": 152
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXdwmD5Q7Gxah"
+      },
+      {
+        "collaborative": false,
+        "description": "insta: @trentcrick  :))",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5r83ayGsiNhUTFmeR5w5mJ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5r83ayGsiNhUTFmeR5w5mJ",
+        "id": "5r83ayGsiNhUTFmeR5w5mJ",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb1c59b1dbfc03c717bf769615",
+            "width": null
+          }
+        ],
+        "name": "LOREM essentials ",
+        "owner": {
+          "display_name": "Trent Crick",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/9qkgb0kvtacff3412ov25cdsk"
+          },
+          "href": "https://api.spotify.com/v1/users/9qkgb0kvtacff3412ov25cdsk",
+          "id": "9qkgb0kvtacff3412ov25cdsk",
+          "type": "user",
+          "uri": "spotify:user:9qkgb0kvtacff3412ov25cdsk"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYzLGMyZWU0MjMzMmIwYjAxMDI0MDViYzc0OGQ4MTM0ZTdiY2M5OTNhYTk=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5r83ayGsiNhUTFmeR5w5mJ/tracks",
+          "total": 151
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5r83ayGsiNhUTFmeR5w5mJ"
+      },
+      {
+        "collaborative": false,
+        "description": "This is 100% copyright free music to use for whatever you want. Use it for your twitch stream, Instagram, YouTube videos, or just listen to it to be more productive. by LOREM &#x2F; Lorem de Loop",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2UEwLD0gQ1gNxMLb2zJjIa"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2UEwLD0gQ1gNxMLb2zJjIa",
+        "id": "2UEwLD0gQ1gNxMLb2zJjIa",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb1891c4bf119e4dd7fd613bc7",
+            "width": null
+          }
+        ],
+        "name": "Lorem de Loop - Lo-Fi",
+        "owner": {
+          "display_name": "Lorem de Loop",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/1t59z08isw8u7126p8vuq213o"
+          },
+          "href": "https://api.spotify.com/v1/users/1t59z08isw8u7126p8vuq213o",
+          "id": "1t59z08isw8u7126p8vuq213o",
+          "type": "user",
+          "uri": "spotify:user:1t59z08isw8u7126p8vuq213o"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjMsNWFmMGY5ZDFiZWUxMDFmMGZmNzQ3NDQ2YTc0OTE1MDFkYTEwNzIyYQ==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2UEwLD0gQ1gNxMLb2zJjIa/tracks",
+          "total": 20
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2UEwLD0gQ1gNxMLb2zJjIa"
+      },
+      {
+        "collaborative": false,
+        "description": "Here&#x27;s a (near) comprehensive playlist of every song that&#x27;s appeared on Lorem Ipsum.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/57rryt2RBBQAqtVdd2xp5G"
+        },
+        "href": "https://api.spotify.com/v1/playlists/57rryt2RBBQAqtVdd2xp5G",
+        "id": "57rryt2RBBQAqtVdd2xp5G",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb302de7b39a45a8335a73b4b4",
+            "width": null
+          }
+        ],
+        "name": "Lorem Ipsum Archive",
+        "owner": {
+          "display_name": "loremipsum-wtf",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/loremipsum-wtf"
+          },
+          "href": "https://api.spotify.com/v1/users/loremipsum-wtf",
+          "id": "loremipsum-wtf",
+          "type": "user",
+          "uri": "spotify:user:loremipsum-wtf"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "ODc4LGM1OGI0ZDVlNjg2MDkwZTI2YzMwNGNiNDEwN2U1NGU4ODE3ZTY5YWM=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/57rryt2RBBQAqtVdd2xp5G/tracks",
+          "total": 877
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:57rryt2RBBQAqtVdd2xp5G"
+      },
+      {
+        "collaborative": false,
+        "description": "Lorem -  6 hours long playlist curated by Billie for Spotify.  Lorem is a reflection of eclectic trends of modern music, this time the playlist consists of hundreds of songs handpicked by Billie Eilish herself! Enjoy!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0wbBypLTh5fCMcn2G3CJBD"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0wbBypLTh5fCMcn2G3CJBD",
+        "id": "0wbBypLTh5fCMcn2G3CJBD",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebbc66687c99a06a301228641dd",
+            "width": null
+          }
+        ],
+        "name": "Lorem: Billie Eilish",
+        "owner": {
+          "display_name": "Jovi Claire",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/22bbe5m5fqscsyuqlo72kghwq"
+          },
+          "href": "https://api.spotify.com/v1/users/22bbe5m5fqscsyuqlo72kghwq",
+          "id": "22bbe5m5fqscsyuqlo72kghwq",
+          "type": "user",
+          "uri": "spotify:user:22bbe5m5fqscsyuqlo72kghwq"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTQwLDI3MzA1YWUwMjUyNDM0OTBkYjJlMTgzNzE4OWVkNzU2OWMzY2QxOGY=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0wbBypLTh5fCMcn2G3CJBD/tracks",
+          "total": 130
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0wbBypLTh5fCMcn2G3CJBD"
+      },
+      {
+        "collaborative": false,
+        "description": "47 hrs of off-brand Lorem but I’m just tryna smoke. take a listen ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/7kJHULE7ddvbF4aOKbjMMb"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7kJHULE7ddvbF4aOKbjMMb",
+        "id": "7kJHULE7ddvbF4aOKbjMMb",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebbf15b68527b6120acdedc353c",
+            "width": null
+          }
+        ],
+        "name": "Lorem  ",
+        "owner": {
+          "display_name": "Jonathan Torres",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/intentthrone"
+          },
+          "href": "https://api.spotify.com/v1/users/intentthrone",
+          "id": "intentthrone",
+          "type": "user",
+          "uri": "spotify:user:intentthrone"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTAwMixjYzU3MDhmYTdmZGE2OWI5Y2ZkOWU1YjBjNTg4YWU1ZmI0ODI0OTc1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/7kJHULE7ddvbF4aOKbjMMb/tracks",
+          "total": 808
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7kJHULE7ddvbF4aOKbjMMb"
+      },
+      {
+        "collaborative": false,
+        "description": "lorem domain",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/00KxDLkFtkoZr0Wp5ppjhR"
+        },
+        "href": "https://api.spotify.com/v1/playlists/00KxDLkFtkoZr0Wp5ppjhR",
+        "id": "00KxDLkFtkoZr0Wp5ppjhR",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb35ebfd312b24b3078aec2e50",
+            "width": null
+          }
+        ],
+        "name": "lorem",
+        "owner": {
+          "display_name": "heiden",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31xmxuzywnvekqqbftuee6wwom5e"
+          },
+          "href": "https://api.spotify.com/v1/users/31xmxuzywnvekqqbftuee6wwom5e",
+          "id": "31xmxuzywnvekqqbftuee6wwom5e",
+          "type": "user",
+          "uri": "spotify:user:31xmxuzywnvekqqbftuee6wwom5e"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjEyLDkxNTllNzNjYjllODA2MDQ3MzY3MDRkODY4YTkxMjJjMzNlOTI4OTI=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/00KxDLkFtkoZr0Wp5ppjhR/tracks",
+          "total": 73
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:00KxDLkFtkoZr0Wp5ppjhR"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/54tLyT3EJhC7xlAzF4EoGn"
+        },
+        "href": "https://api.spotify.com/v1/playlists/54tLyT3EJhC7xlAzF4EoGn",
+        "id": "54tLyT3EJhC7xlAzF4EoGn",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebbc5e9bd95b7270ced924a3b67",
+            "width": null
+          }
+        ],
+        "name": "lorem ipsum",
+        "owner": {
+          "display_name": "Jarod Huynh",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/sorakame"
+          },
+          "href": "https://api.spotify.com/v1/users/sorakame",
+          "id": "sorakame",
+          "type": "user",
+          "uri": "spotify:user:sorakame"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDg1LDE0Nzk4MGFhMGEwMzg1ODUwZjg5Y2EzMjZjMmE1Y2M4NWQ4ODlkOTQ=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/54tLyT3EJhC7xlAzF4EoGn/tracks",
+          "total": 238
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:54tLyT3EJhC7xlAzF4EoGn"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5DcKj35VDqDyq3qivhmV1E"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5DcKj35VDqDyq3qivhmV1E",
+        "id": "5DcKj35VDqDyq3qivhmV1E",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b27313495130dccead15dfd71cfbab67616d0000b2736793c095a2d5d24ec3e76278ab67616d0000b2739108ccb67f4d0102cf2d7262ab67616d0000b273f15af64cbad45e76c710518b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b27313495130dccead15dfd71cfbab67616d0000b2736793c095a2d5d24ec3e76278ab67616d0000b2739108ccb67f4d0102cf2d7262ab67616d0000b273f15af64cbad45e76c710518b",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b27313495130dccead15dfd71cfbab67616d0000b2736793c095a2d5d24ec3e76278ab67616d0000b2739108ccb67f4d0102cf2d7262ab67616d0000b273f15af64cbad45e76c710518b",
+            "width": 60
+          }
+        ],
+        "name": "lorem vol 2",
+        "owner": {
+          "display_name": "Quyen",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/xc3xyt1fwoa85jh9wo8cpsobi"
+          },
+          "href": "https://api.spotify.com/v1/users/xc3xyt1fwoa85jh9wo8cpsobi",
+          "id": "xc3xyt1fwoa85jh9wo8cpsobi",
+          "type": "user",
+          "uri": "spotify:user:xc3xyt1fwoa85jh9wo8cpsobi"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTEwLDVjYzM3NDUxNzgwYzFjNjEyZTRkM2ZlNGJlYmI0NjcyMTUzNmE1MTA=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5DcKj35VDqDyq3qivhmV1E/tracks",
+          "total": 63
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5DcKj35VDqDyq3qivhmV1E"
+      },
+      {
+        "collaborative": false,
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. My personal playlist placeholder.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/1Yab0RQNcMbWk097wQJhT2"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1Yab0RQNcMbWk097wQJhT2",
+        "id": "1Yab0RQNcMbWk097wQJhT2",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb98bb00e341e9815f03829ef0",
+            "width": null
+          }
+        ],
+        "name": "Lorem Ipsum",
+        "owner": {
+          "display_name": "Charlotte Ayers",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/12160729677"
+          },
+          "href": "https://api.spotify.com/v1/users/12160729677",
+          "id": "12160729677",
+          "type": "user",
+          "uri": "spotify:user:12160729677"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MzYxLGRhOGIyODE2NmE4NjA1OWE2MjdjN2VjYWExNjQxN2ZmOTI0ZGQ1Njg=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/1Yab0RQNcMbWk097wQJhT2/tracks",
+          "total": 338
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1Yab0RQNcMbWk097wQJhT2"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2YrO376D25qRtn4xHLBwpN"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2YrO376D25qRtn4xHLBwpN",
+        "id": "2YrO376D25qRtn4xHLBwpN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2737d24af86efc20bccf229fd53ab67616d0000b273c9a9f145388397f878892480ab67616d0000b273e770a344d5eca9adb68afc48ab67616d0000b273fb1c194dc56c9ef5b809ffea",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2737d24af86efc20bccf229fd53ab67616d0000b273c9a9f145388397f878892480ab67616d0000b273e770a344d5eca9adb68afc48ab67616d0000b273fb1c194dc56c9ef5b809ffea",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2737d24af86efc20bccf229fd53ab67616d0000b273c9a9f145388397f878892480ab67616d0000b273e770a344d5eca9adb68afc48ab67616d0000b273fb1c194dc56c9ef5b809ffea",
+            "width": 60
+          }
+        ],
+        "name": "Lorem",
+        "owner": {
+          "display_name": "Haley Ellenwood",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/12166969641"
+          },
+          "href": "https://api.spotify.com/v1/users/12166969641",
+          "id": "12166969641",
+          "type": "user",
+          "uri": "spotify:user:12166969641"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjExLDViZWRlODA4OGVjMDRmOWRhNTJkYzYxNDhlMDVkNmRkYjM4Yzk5YmM=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2YrO376D25qRtn4xHLBwpN/tracks",
+          "total": 218
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2YrO376D25qRtn4xHLBwpN"
+      },
+      {
+        "collaborative": false,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/192fjsV8Xi10YaELcnSC04"
+        },
+        "href": "https://api.spotify.com/v1/playlists/192fjsV8Xi10YaELcnSC04",
+        "id": "192fjsV8Xi10YaELcnSC04",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2731e7c1f167d1a6fdd2d8cab10ab67616d0000b2733fade045675ef7a69df57eebab67616d0000b273aa835834cda0c6a0d1322ee9ab67616d0000b273fb0610caa5ce0747743fb52e",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2731e7c1f167d1a6fdd2d8cab10ab67616d0000b2733fade045675ef7a69df57eebab67616d0000b273aa835834cda0c6a0d1322ee9ab67616d0000b273fb0610caa5ce0747743fb52e",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2731e7c1f167d1a6fdd2d8cab10ab67616d0000b2733fade045675ef7a69df57eebab67616d0000b273aa835834cda0c6a0d1322ee9ab67616d0000b273fb0610caa5ce0747743fb52e",
+            "width": 60
+          }
+        ],
+        "name": "GAO BAI QI QIU",
+        "owner": {
+          "display_name": "Yuqing Karen Shi",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/syuqing"
+          },
+          "href": "https://api.spotify.com/v1/users/syuqing",
+          "id": "syuqing",
+          "type": "user",
+          "uri": "spotify:user:syuqing"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTAwLDg5OGIzN2YzMmU3ZTk4ZDU1MDYyZmEwNDU2ZGYyZjc2YWMwZWFmYTI=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/192fjsV8Xi10YaELcnSC04/tracks",
+          "total": 55
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:192fjsV8Xi10YaELcnSC04"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0IbUpN9sjUruNBAkxpCVt6"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0IbUpN9sjUruNBAkxpCVt6",
+        "id": "0IbUpN9sjUruNBAkxpCVt6",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb67a1994dbe111f96fa3df00d",
+            "width": null
+          }
+        ],
+        "name": "Lorem Ipsum",
+        "owner": {
+          "display_name": "locksmithtu",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/locksmithtu"
+          },
+          "href": "https://api.spotify.com/v1/users/locksmithtu",
+          "id": "locksmithtu",
+          "type": "user",
+          "uri": "spotify:user:locksmithtu"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjIyNywwZjQ4NjE3YmYzNWE3NGU5MzVlYTRiYWUwNTU0M2ExZDcxYjUyNDI1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0IbUpN9sjUruNBAkxpCVt6/tracks",
+          "total": 689
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0IbUpN9sjUruNBAkxpCVt6"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/1E8aknbGBcqmBi8Af3x2f5"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1E8aknbGBcqmBi8Af3x2f5",
+        "id": "1E8aknbGBcqmBi8Af3x2f5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2730595fb7a356708a606ad0a2bab67616d0000b273203c89bd4391468eea4cc3f5ab67616d0000b2735697952b2de8c7c2ee942153ab67616d0000b273f907de96b9a4fbc04accc0d5",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2730595fb7a356708a606ad0a2bab67616d0000b273203c89bd4391468eea4cc3f5ab67616d0000b2735697952b2de8c7c2ee942153ab67616d0000b273f907de96b9a4fbc04accc0d5",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2730595fb7a356708a606ad0a2bab67616d0000b273203c89bd4391468eea4cc3f5ab67616d0000b2735697952b2de8c7c2ee942153ab67616d0000b273f907de96b9a4fbc04accc0d5",
+            "width": 60
+          }
+        ],
+        "name": "lorem",
+        "owner": {
+          "display_name": "camilla0201",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/camilla0201"
+          },
+          "href": "https://api.spotify.com/v1/users/camilla0201",
+          "id": "camilla0201",
+          "type": "user",
+          "uri": "spotify:user:camilla0201"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTMxLGRhMTY1NWYzZGM2ODEzYjhmYzI3YTVlY2MwZDgzYzA1MGQ3YjgzMGU=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/1E8aknbGBcqmBi8Af3x2f5/tracks",
+          "total": 65
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1E8aknbGBcqmBi8Af3x2f5"
+      },
+      {
+        "collaborative": false,
+        "description": "current favourites on repeat that i will sadly get sick of",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2exJSczG81mh0t3vLChyDX"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2exJSczG81mh0t3vLChyDX",
+        "id": "2exJSczG81mh0t3vLChyDX",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb4696955a83591f6139adda3b",
+            "width": null
+          }
+        ],
+        "name": "Lorem ipsum",
+        "owner": {
+          "display_name": "Jacqueline Ngan",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/jacqie1125"
+          },
+          "href": "https://api.spotify.com/v1/users/jacqie1125",
+          "id": "jacqie1125",
+          "type": "user",
+          "uri": "spotify:user:jacqie1125"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjM0NiwzOTVmNmYxYjRjZGVkYTQzYzYxYWVmNzY5NDliOGJiMGMxODI4NmRk",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2exJSczG81mh0t3vLChyDX/tracks",
+          "total": 149
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2exJSczG81mh0t3vLChyDX"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/1JoC7koHNYtdVZfct508TH"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1JoC7koHNYtdVZfct508TH",
+        "id": "1JoC7koHNYtdVZfct508TH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b273089227692264a64501c4dc21ab67616d0000b2734f568fff018a881ce15eda52ab67616d0000b2737d37f78c2fe0968cc13f3cfbab67616d0000b273c736f0be0530ea1e1a7fd601",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b273089227692264a64501c4dc21ab67616d0000b2734f568fff018a881ce15eda52ab67616d0000b2737d37f78c2fe0968cc13f3cfbab67616d0000b273c736f0be0530ea1e1a7fd601",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b273089227692264a64501c4dc21ab67616d0000b2734f568fff018a881ce15eda52ab67616d0000b2737d37f78c2fe0968cc13f3cfbab67616d0000b273c736f0be0530ea1e1a7fd601",
+            "width": 60
+          }
+        ],
+        "name": "LoreMar",
+        "owner": {
+          "display_name": "Marcelomunoz",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/7cxxf5pn4xu2ebvw9w5wdjtao"
+          },
+          "href": "https://api.spotify.com/v1/users/7cxxf5pn4xu2ebvw9w5wdjtao",
+          "id": "7cxxf5pn4xu2ebvw9w5wdjtao",
+          "type": "user",
+          "uri": "spotify:user:7cxxf5pn4xu2ebvw9w5wdjtao"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDEsOWNkNjZlYjAxOTc3YzcxYjFlZTM3NjU4ZDdkMTQwNTliMzdmMzM2NA==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/1JoC7koHNYtdVZfct508TH/tracks",
+          "total": 32
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1JoC7koHNYtdVZfct508TH"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/11yIjvWW38iJMKjkGSdN6D"
+        },
+        "href": "https://api.spotify.com/v1/playlists/11yIjvWW38iJMKjkGSdN6D",
+        "id": "11yIjvWW38iJMKjkGSdN6D",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b273241c6f0d19ffcda38f58c7f8ab67616d0000b27356ec1cc039e913c4013ef4f2ab67616d0000b273ec8be21d32e663885fbb244eab67616d0000b273f89d2d949f9671982e9e732c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b273241c6f0d19ffcda38f58c7f8ab67616d0000b27356ec1cc039e913c4013ef4f2ab67616d0000b273ec8be21d32e663885fbb244eab67616d0000b273f89d2d949f9671982e9e732c",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b273241c6f0d19ffcda38f58c7f8ab67616d0000b27356ec1cc039e913c4013ef4f2ab67616d0000b273ec8be21d32e663885fbb244eab67616d0000b273f89d2d949f9671982e9e732c",
+            "width": 60
+          }
+        ],
+        "name": "diy lorem",
+        "owner": {
+          "display_name": "George Najera",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/escapethechemicalsirens"
+          },
+          "href": "https://api.spotify.com/v1/users/escapethechemicalsirens",
+          "id": "escapethechemicalsirens",
+          "type": "user",
+          "uri": "spotify:user:escapethechemicalsirens"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "OTgsMmZhYjlkMmFiZmJiZTYxNjM3NDVhMTJiN2YxZjEyMTgyYjI2NWY1OA==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/11yIjvWW38iJMKjkGSdN6D/tracks",
+          "total": 85
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:11yIjvWW38iJMKjkGSdN6D"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0hIvqZQhM5RW7QYpTvoQVf"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0hIvqZQhM5RW7QYpTvoQVf",
+        "id": "0hIvqZQhM5RW7QYpTvoQVf",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb10f12e827a5931fb7ecead22",
+            "width": null
+          }
+        ],
+        "name": "LOREM",
+        "owner": {
+          "display_name": "tyzair",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/y635j0fc2a2h1ajjoeh1k93jq"
+          },
+          "href": "https://api.spotify.com/v1/users/y635j0fc2a2h1ajjoeh1k93jq",
+          "id": "y635j0fc2a2h1ajjoeh1k93jq",
+          "type": "user",
+          "uri": "spotify:user:y635j0fc2a2h1ajjoeh1k93jq"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjgyLDEwZWNiNjc0NWUwYzJlZjg2MjU4MTU4ZDgzYjk4OTJjYTIyYTM4ZjI=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0hIvqZQhM5RW7QYpTvoQVf/tracks",
+          "total": 232
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0hIvqZQhM5RW7QYpTvoQVf"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/74PdMTpWku99epRFWKbnL0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/74PdMTpWku99epRFWKbnL0",
+        "id": "74PdMTpWku99epRFWKbnL0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb7cd304f34ac75e3ed1eb6e45",
+            "width": null
+          }
+        ],
+        "name": "lorem",
+        "owner": {
+          "display_name": "evelyndrinias",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/edblueflower"
+          },
+          "href": "https://api.spotify.com/v1/users/edblueflower",
+          "id": "edblueflower",
+          "type": "user",
+          "uri": "spotify:user:edblueflower"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "OTEsOWEwODRiYmUwMGI4OTQ0YWRiMjM3YWZlYTJjNjNkNzc3MmEzZjcwNA==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/74PdMTpWku99epRFWKbnL0/tracks",
+          "total": 60
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:74PdMTpWku99epRFWKbnL0"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4VwqrvBn2K0zNxYGeFaD3Q"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4VwqrvBn2K0zNxYGeFaD3Q",
+        "id": "4VwqrvBn2K0zNxYGeFaD3Q",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706c0000bebb16a4d4a091ad85c3946bfd47",
+            "width": null
+          }
+        ],
+        "name": "Liked from LOREM",
+        "owner": {
+          "display_name": "Stefan",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/13hgivgqo3zrbfgxt2ggp9ica"
+          },
+          "href": "https://api.spotify.com/v1/users/13hgivgqo3zrbfgxt2ggp9ica",
+          "id": "13hgivgqo3zrbfgxt2ggp9ica",
+          "type": "user",
+          "uri": "spotify:user:13hgivgqo3zrbfgxt2ggp9ica"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTI0MCxhMjBjMjBhMTRlZmU0ZTBjNzhkYmIyMmVlZDkwMjE1NTFhMGYxNmM1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4VwqrvBn2K0zNxYGeFaD3Q/tracks",
+          "total": 239
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4VwqrvBn2K0zNxYGeFaD3Q"
+      }
+    ],
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/search?query=Lorem&type=playlist&market=US&offset=20&limit=20",
+    "offset": 0,
+    "previous": null,
+    "total": 713
+  }
+}
