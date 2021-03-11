@@ -18,16 +18,22 @@ const { ValidationError } = objection
 import SpotifyWebApi from 'spotify-web-api-node'
 
 const spotifySearchRouter = new express.Router()
+
 // const clientId = '009470cfd6244ed9accb4456fff40697'
 // const clientSecret = 'c810f1d7564247c39797cf139d290f7c'
 // point to eventPlaylistsROuter
 // "/api/v1/events:eventId/playlists"
+
 spotifySearchRouter.get('/', async (req, res) => {
   try{
     const spotifyApi = new SpotifyWebApi({
       clientId: '009470cfd6244ed9accb4456fff40697',
       clientSecret: 'c810f1d7564247c39797cf139d290f7c'
     })
+
+    // authTokenData = await spotifyApi.clientCredentialsGrant()
+
+    // console.log(authTokenData)
 
     spotifyApi.clientCredentialsGrant().then(
       function(data) {
@@ -50,6 +56,7 @@ spotifySearchRouter.get('/', async (req, res) => {
         console.error(err);
       }
     );
+
     return res.status(200).json({ events: events})
   } catch {
     return res.status(500).json({ errors: err})
